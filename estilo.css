@@ -1,0 +1,69 @@
+/* aplicado para toda la pagina principal del salinerito*/
+
+body { /*  font-family Explicación: Establece una lista de fuentes, padding controla el espacio entre el contenido del elemento y su borde. */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #5a2c21;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {  /*Controla el ancho máximo que un elemento puede ocupar en la pantalla.*/
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-top: 15px;
+}
+
+nav {
+    background-color: #3e1e14;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ /*con display: inline;, se especifica que debe comportarse como un elemento en línea.*/
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #5a2c21;
+}
+
+footer {
+    background-color: #3e1e14;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
