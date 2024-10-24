@@ -1,5 +1,15 @@
 /* aplicado para toda la pagina principal del salinerito*/
+@media screen and(wax-width:400px) {
+    html {
+        font-size: 9.4117444444444444px;
+    }
+}
 
+/*Altura*/
+html,
+body {
+    height: 100%;
+}
 body { /*  font-family Explicación: Establece una lista de fuentes, padding controla el espacio entre el contenido del elemento y su borde. */
     font-family: Arial, sans-serif;
     margin: 0;

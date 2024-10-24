@@ -1,5 +1,15 @@
 /* aplicado para toda la pagina del catalogo del salinerito*/
+@media screen and(wax-width:400px) {
+    html {
+        font-size: 9.4117444444444444px;
+    }
+}
 
+/*Altura*/
+html,
+body {
+    height: 100%;
+}
 .catalogo {
     display: flex;
     justify-content: space-around;
