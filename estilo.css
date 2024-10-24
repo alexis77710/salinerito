@@ -26,8 +26,8 @@ header {
 }
 
 header img {  /*Controla el ancho máximo que un elemento puede ocupar en la pantalla.*/
-    width: 100%;
-    max-width: 200px;
+    width: 200%;
+    max-width: 600px;
     height: auto;
     margin-top: 15px;
 }
