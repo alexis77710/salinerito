@@ -14,12 +14,12 @@ body { /*  font-family Explicación: Establece una lista de fuentes, padding con
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #caacac;
+    background-color: #f7f7f7;
     color: #333;
 }
 
 header {
-    background-color: #5a2c21;
+    background-color: #5e2129;
     color: white;
     padding: 20px;
     text-align: center;
@@ -27,13 +27,13 @@ header {
 
 header img {  /*Controla el ancho máximo que un elemento puede ocupar en la pantalla.*/
     width: 200%;
-    max-width: 600px;
+    max-width: 700px;
     height: auto;
     margin-top: 15px;
 }
 
 nav {
-    background-color: #3e1e14;
+    background-color: #000000;
     text-align: center;
 }
 
@@ -94,4 +94,10 @@ a:active {
 a:hover,
 a:active{
     outline: 0;
+}
+section img {  /*Controla el ancho máximo que un elemento puede ocupar en la pantalla.*/
+    width: 25%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 15px;
 }
