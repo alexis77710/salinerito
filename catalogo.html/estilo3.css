@@ -1,6 +1,6 @@
 /* aplicado para toda la pagina del catalogo del salinerito*/
 
-#catalogo {
+.catalogo {
     display: flex;
     justify-content: space-around;
     padding: 20px;
@@ -8,12 +8,12 @@
 }
 
 .producto { /*box-shadow aplica una sombra a los bordes de un elemento*/
-    border: 1px solid #ddd;
+    border: 1px solid #5c2b2b;
     padding: 20px;
     width: 30%;
     margin: 10px;
     text-align: center;
-    background-color: #fff;
+    background-color: #caacac;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -31,8 +31,8 @@
 }
 
 .producto button { /*cursor: cambia el estilo del cursor del mouse cuando este pasa sobre un elemento en una página web.*/
-    background-color: #5a2c21;
-    color: white;
+    background-color: #5c1f10;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -40,5 +40,26 @@
 }
 
 .producto button:hover {
-    background-color: #3e1e14;
+    background-color: #442d26;
+}
+body { /*  font-family Explicación: Establece una lista de fuentes, padding controla el espacio entre el contenido del elemento y su borde. */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dfcaca;
+    color: #333;
+}
+
+header {
+    background-color: #5a2c21;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+header img {  /*Controla el ancho máximo que un elemento puede ocupar en la pantalla.*/
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-top: 15px;
 }

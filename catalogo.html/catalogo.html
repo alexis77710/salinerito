@@ -7,6 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Catálogo de Licores</title>
     <link rel="stylesheet" href="estilo3.css">
+    <link rel="icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <link rel="icon" href="img/android-chrome-192x192.png" type="image/x-icon">
+    <link rel="icon" href="img/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="icon" href="img/apple-touch-icon.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+
 </head>
 
 <body>
@@ -15,13 +23,17 @@
     </header>
     <!--apartado para que las personas puedan ver que licor elegir y cual es de su agrado con un acceso directo al carrito para agregarlo a la compra-->
 
-    <section id="catalogo">
+    <section class="catalogo">
         <div class="producto">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKLir6rs6d7GObc5pv5J4O4RKDmXe3swUBmA&s"
                 alt="Licor 1">
             <h3>Pájaro Azul Don Dago 750 ml.</h3>
             <p>Un delicioso licor con una mezcla de frutas tropicales, ideal para cócteles refrescantes.</p>
-            <button>dirigirse al carrito_compra</button>
+           <nav>
+            <p>Precio: $10.00</p>
+            <button onclick="mostrarMensaje()">comprar</button>
+        
+           </nav>
         </div>
 
         <div class="producto">
@@ -29,7 +41,9 @@
                 alt="Licor 2">
             <h3>Vino Mortiño Ultimo Inca 750 ml.</h3>
             <p>Este licor está hecho con una combinación de hierbas naturales, perfecto para después de las comidas.</p>
-            <button> dirigirse al carrito_compra</button>
+            <p>Precio: $9.00</p>
+
+            <button onclick="mostrarMensaje()">comprar</button>
         </div>
 
         <div class="producto">
@@ -37,9 +51,29 @@
                 alt="Licor 3">
             <h3>Pájaro Azul Don Dago 375 ml.</h3>
             <p>Un licor suave con el aroma y sabor inconfundible del mejor café, ideal para servir solo o con hielo.</p>
-            <button>dirigirse al carrito_compra</button>
+            <p>Precio: $19.00</p>
+            <button onclick="mostrarMensaje()">comprar</button>
+        </div>
+        
+   
+    <div class="producto">
+        <img src="https://diprecafe.com/cdn/shop/files/chicle.png?v=1706304274" alt="producto#3">
+        <h3>Aguardiente sabor Chicle</h3>
+        <p>Disfruta de la diversión y nostalgia del aguardiente sabor a chicle, una bebida 
+       que
+        sorprende con su dulzura y frescura. Con un sabor juguetón que evoca los
+        recuerdos de la infancia</p>
+        <p>Precio: $15.50</p>
+        <button onclick="mostrarMensaje()">comprar</button>
         </div>
     </section>
+    
+
+    <script>
+        function mostrarMensaje() {
+            alert("¡Gracias por tu compra! El producto se ha agregado al carrito.");
+        }
+    </script>
 <!--pie de pagina de derechos reservados.-->
 
     <footer>

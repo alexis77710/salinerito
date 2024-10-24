@@ -4,7 +4,7 @@ body { /*  font-family Explicación: Establece una lista de fuentes, padding con
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #caacac;
     color: #333;
 }
 
@@ -66,4 +66,22 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+a {
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #7e262a;
+}
+
+/*focus es brillo*/
+/*active lo activa xd*/
+/*funcion hover*/
+a:hover,
+a:active{
+    outline: 0;
 }
